@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Safari Extensions by Daniel Bergey</title>
+		<style>
+			body, td {
+				font: 13px/24px helvetica, arial;
+			}
+			body {
+				background: #eee;
+			}
+			h2 {
+				
+			}
+			img {
+				border: 1px solid black;
+				-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+			}
+		</style>
+	</head>
+	<body>
+	<div align="center">
+
+	<h1>Safari Extensions</h1>
+
+	<p>Quick landing page for some Safari 5 extensions I put together.</p>
+	Contact me on Twitter: <a href="http://twitter.com/dbergey">@dbergey</a> or by email: <a href="mailto:me+safari5@danielbergey.com">me+safari5@danielbergey.com</a>
+
+		<table border=0 cellspacing="20">
+			<tr>
+				<td width="425" valign="top">
+					<h2 align="center">Type-To-Navigate 1.0.4</h2>
+					<p align="center"><a href="http://dbergey.github.com/Type-To-Navigate/typetonavigate.safariextz"><img src="http://github.com/dbergey/Type-To-Navigate/raw/master/typetonavigate.png" width="425" height="275"></a></p>
+					<p align="center"><a href="http://dbergey.github.com/Type-To-Navigate/typetonavigate.safariextz">Download Type-To-Navigate</a></p>
+					<p>Keep your hands on the keyboard while browsing the web. Type any text that occurs inside a link, and hit return to follow it. &#x2318;G jumps to the next link containing the text, and &#x2318;&#x21E7;G jumps to the previous. Hit ESC to cancel or exit a focused field.</p>
+					<h3>Version History</h3>
+					<ul>
+						<li><strong>1.0.4</strong> - Icons. Fixed issue where a hidden link could be selected.</li>
+						<li><strong>1.0.3</strong> - Instapaper support! Use &#x2318;I to copy the URL of the focused link. Also now firing mouseover events for focused links.</li>
+						<li><strong>1.0.2</strong> - Excluded Google Reader until a I can make a proper blacklist. Now waiting to popup/focus until the second character typed. Also ignoring long strings of identical chars, and those comprised completely of J &amp; K (for j/k style navigation). Added &#x2318;C to copy the URL of the focused link.</li>
+						<li><strong>1.0.1</strong> - Moved to Github, removed old (unused) userscript update code.</li>
+						<li><strong>1.00</strong> - Initial public release.</li>
+					<ul>
+				</td>
+				<td width="425" valign="top">
+					<h2 align="center">Invisible Status Bar 1.20</h2>
+					<p align="center"><a href="http://dbergey.github.com/Invisible-Status-Bar/invisiblestatusbar.safariextz"><img src="http://github.com/dbergey/Invisible-Status-Bar/raw/master/invisiblestatusbar.png" width="425" height="275"></a></p>
+					<p align="center"><a href="http://dbergey.github.com/Invisible-Status-Bar/invisiblestatusbar.safariextz">Download Invisible Status Bar</a></p>
+					<p>Save display space or appeal to your own sense of minimalism by hiding Safari's native status bar, and using the Invisible Status Bar instead. Only shows up when you hover over a link, i.e. when you need a status bar.
+						
+					<h3>Version History</h3>
+					<ul>
+						<li><strong>1.20</strong> - Worked around Flash 1.0 / Safari 5 font antialiasing rendering bug.</li>
+						<li><strong>1.18</strong> - More CSS/theme correction.</li>
+						<li><strong>1.16</strong> - Icons!</li>
+						<li><strong>1.15</strong> - CSS tweaks, smoother scrolling when hidden.
+						<li><strong>1.14</strong> - Dock theme.
+						<li><strong>1.13</strong> - No errors on pages without BODY tags (FRAMESET, etc.).</li>
+						<li><strong>1.11</strong> - Visual indication of relative links works again.</li>
+						<li><strong>1.08</strong> - Now hosted at github.</li>
+						<li><strong>1.07</strong> - Pulled due to JS error. If you updated to 1.07, you'll need to redownload.</li>
+						<li><strong>1.06</strong> - Proper IFRAME support now; shows status bar on main page even when hover is in IFRAME. Added themes support: Classic, Safari, Chrome.</li>
+						<li><strong>1.05</strong> - Now showing special characters in URLs correctly in status bar (no more %20, etc.).</li>
+						<li><strong>1.04</strong> - Fixed width/height/margin issues in case a site's CSS sets those properties globally for every div.</li>
+						<li><strong>1.03</strong> - Fixed issue where status bar would incorrectly show up <em>inside</em> &lt;iframe&gt;s. For now, ignores links in iframes.</li>
+						<li><strong>1.02</strong> - Fixed issue where user couldn't click links behind where the status bar would show when visible.</li>
+						<li><strong>1.01</strong> - Visual tweaks: changed font to Lucida Grande, added fade-in/-out, removed border, added drop-shadow.</li>
+						<li><strong>1.00</strong> - Initial public release.</li>
+					<ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-131389-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+</body>
+</html>

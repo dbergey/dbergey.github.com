@@ -1,0 +1,1 @@
+<?php header('Location: http://github.com/dbergey/Type-To-Navigate/issues'); ?>
