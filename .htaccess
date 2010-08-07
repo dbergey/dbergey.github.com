@@ -1,7 +1,2 @@
 AddType application/x-safari-extension safariextz
 AddType text/xml plist
-
-# redirects from danielbergey.com
-RewriteEngine On
-RewriteRule ^/software/invisiblestatusbar/$ /
-RewriteRule ^/software/typetonavigate/$ /
